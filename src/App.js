@@ -1,23 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import { StreamedChart } from './components/StreamedChart';
+import { SprintBarChart } from './components/SprintBarChart';
+import { SprintTable } from './components/SprintTable';
+import { CardData } from './components/CardData';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <StreamedChart />
+      <SprintBarChart />
+      <SprintTable />
+      <CardData/>
     </div>
   );
 }
