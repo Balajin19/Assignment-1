@@ -12,16 +12,15 @@ code {
     monospace;
 }
 
-.my-custom-scrollbar {
-  position: relative;
+.table-container {
+  width: 800px;
   height: 300px;
-  overflow: auto;
-}
-.table-wrapper-scroll-y {
-  display: block;
+  overflow-x: none;
+  overflow-y: auto;
 }
 
-.container {
+
+.card-container {
   margin-bottom: 25px;
 }
 

@@ -2,7 +2,7 @@ import "../../index.css";
 import cardData from "../../MockData/CardData.json";
 export const CardData = () => {
   return (
-    <div className="container">
+    <div className="card-container">
       <h1>CardData UI</h1>
       {cardData.map((value, index) => {
         return (

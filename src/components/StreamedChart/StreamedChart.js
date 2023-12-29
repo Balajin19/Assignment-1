@@ -17,7 +17,7 @@ export const StreamedChart = () => {
         <AreaChart width={1000} height={500} data={streamedChartData}>
           <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
           <XAxis
-            type="category"
+            dataKey="month"
             label={{
               value: "Hours in avg",
               position: "insideBottomRight",

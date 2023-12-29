@@ -4,7 +4,7 @@ export const SprintTable = () => {
   return (
     <>
       <h1>Sprint table</h1>
-      <div className="table-wrapper-scroll-y my-custom-scrollbar mb-5">
+      <div className="table-container">
         <table className="table table-secondary table-borderless">
           <thead className="table-dark">
             <tr>
