@@ -51,7 +51,6 @@ export const StreamedChart = () => {
             fill="#bdc2c2"
             legendType="circle"
             dot={false}
-            // #8f9192
           />
           <Area
             type="bumpX"

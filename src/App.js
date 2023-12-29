@@ -10,7 +10,6 @@ function App() {
       <SprintBarChart />
       <SprintTable />
       <CardData/>
-
     </div>
   );
 }
