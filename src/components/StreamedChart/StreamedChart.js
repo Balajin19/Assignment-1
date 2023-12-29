@@ -8,18 +8,16 @@ import {
   Area,
   ResponsiveContainer,
 } from "recharts";
-import { StreamedChartData } from "./MockData/data";
+import streamedChartData from "../../MockData/StreamchartData.json";
 export const StreamedChart = () => {
-  
   return (
     <div className="container">
       <h1>Streamed chart</h1>
       <ResponsiveContainer width="90%" height={500}>
-        <AreaChart width={1000} height={500} data={StreamedChartData}>
+        <AreaChart width={1000} height={500} data={streamedChartData}>
           <CartesianGrid strokeDasharray="3 3"></CartesianGrid>
           <XAxis
             type="category"
-            dataKey="month"
             label={{
               value: "Hours in avg",
               position: "insideBottomRight",
@@ -40,7 +38,7 @@ export const StreamedChart = () => {
           <Legend></Legend>
           <Area
             type="bumpX"
-            dataKey="savings"
+            dataKey="IssueOpen"
             stroke="#535757"
             fill="#535757"
             legendType="circle"
@@ -48,7 +46,7 @@ export const StreamedChart = () => {
           />
           <Area
             type="bumpX"
-            dataKey="profit"
+            dataKey="IssueStarted"
             stroke="#bdc2c2"
             fill="#bdc2c2"
             legendType="circle"
@@ -57,7 +55,7 @@ export const StreamedChart = () => {
           />
           <Area
             type="bumpX"
-            dataKey="loss"
+            dataKey="IssueCompleted"
             stroke="#e0e6e6"
             fill="#e0e6e6"
             legendType="circle"

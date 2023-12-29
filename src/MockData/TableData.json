@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Sprint Name 1",
+    "status": "Done",
+    "start_date": "11/07/2022",
+    "end_date": "15/07/2022",
+    "completed_date": "15/07/2022"
+  },
+  {
+    "name": "Sprint Name 2",
+    "status": "Inprogress",
+    "start_date": "17/07/2022",
+    "end_date": "23/07/2022",
+    "completed_date": "23/07/2022"
+  },
+  {
+    "name": "Sprint Name 3",
+    "status": "Done",
+    "start_date": "28/07/2022",
+    "end_date": "30/08/2022",
+    "completed_date": "30/08/2022"
+  },
+  {
+    "name": "Sprint Name 4",
+    "status": "Done",
+    "start_date": "28/08/2022",
+    "end_date": "17/09/2022",
+    "completed_date": "17/09/2022"
+  },
+  {
+    "name": "Sprint Name 5",
+    "status": "Inprogress",
+    "start_date": "20/09/2022",
+    "end_date": "20/10/2022",
+    "completed_date": "20/10/2022"
+  },
+  {
+    "name": "Sprint Name 6",
+    "status": "Done",
+    "start_date": "25/10/2022",
+    "end_date": "05/11/2022",
+    "completed_date": "05/11/2022"
+  },
+  {
+    "name": "Sprint Name 7",
+    "status": "Inprogress",
+    "start_date": "07/11/2022",
+    "end_date": "27/11/2022",
+    "completed_date": "27/11/2022"
+  }
+]

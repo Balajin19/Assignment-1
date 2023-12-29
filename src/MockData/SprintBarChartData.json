@@ -1,0 +1,45 @@
+[
+    {
+      "name": "S1",
+      "SPPlanned": 0,
+      "SPAdded": 100,
+      "SPCompleted": 65,
+      "SPForecast": 0
+    },
+    {
+      "name": "S2",
+      "SPPlanned": 0,
+      "SPAdded": 150,
+      "SPCompleted": 100,
+      "SPForecast": 0
+    },
+    {
+      "name": "S3",
+      "SPPlanned": 80,
+      "SPAdded": 50,
+      "SPCompleted": 65,
+      "SPForecast": 0
+    },
+    {
+      "name": "S4",
+      "SPPlanned": 120,
+      "SPAdded": 40,
+      "SPCompleted": 70,
+      "SPForecast": 0
+    },
+    {
+      "name": "S5",
+      "SPPlanned": 90,
+      "SPAdded": 50,
+      "SPCompleted": 80,
+      "SPForecast": 0
+    },
+    {
+      "name": "Forecast",
+      "SPPlanned": 0,
+      "SPAdded": 0,
+      "SPCompleted": 0,
+      "SPForecast": 100
+    }
+  ]
+

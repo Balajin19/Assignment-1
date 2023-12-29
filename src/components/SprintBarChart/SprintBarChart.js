@@ -8,9 +8,10 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import { sprintBarData } from "./MockData/data";
+import sprintBarData  from "../../MockData/SprintBarChartData.json";
 
 export const SprintBarChart = () => {
+  console.log(sprintBarData, "json data");
   return (
     <div className="container">
       <h1>Sprint Bar chart</h1>
